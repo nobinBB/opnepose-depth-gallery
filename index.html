@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【Nobin】Open & Depth Pose</title>
+    <meta name="description" content="ConnectNetにてUnitを2つ使用し、Open poseとDepth画用いて取りたいポーズを再現できます。">
+    <link rel="canonical" href="https://www.example.com/">
+    <meta property="og:title" content="【Nobin】Open & Depth Pose">
+    <meta property="og:description" content="ConnectNetにてUnitを2つ使用し、Open poseとDepth画像を用いて取りたいポーズを再現できます。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.example.com/">
+    <meta property="og:image" content="https://www.example.com/image.jpg">
+    <meta property="og:site_name" content="【Nobin】Open & Depth Pose">
+    <meta property="og:locale" content="ja_JP">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="【Nobin】Open & Depth Pose">
+    <meta name="twitter:description" content="ConnectNetにてUnitを2つ使用し、Open poseとDepth画像を用いて取りたいポーズを再現できます。">
+    <meta name="twitter:image" content="https://www.example.com/image.jpg">
+    <meta name="twitter:site" content="@nobinLog">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>【Nobin】Open & Depth Pose</h1>
+
+        <!-- 説明文 -->
+        <div class="description-box">
+            <ol>
+                <li>実現したいポーズをさがします。</li>
+                <li>画像の下になるDLからopen poseとDepth画像を取得</li>
+                <li>ConnectNetにてUnitを2つ使用し、Open poseとDepthで画像生成</li>
+                <li>詳しい内容は<a href="./" target="_blank" rel="noopener noreferrer">「note」</a>にて説明しています。</li>
+            </ol>
+        </div>
+
+        <!-- タブナビゲーション -->
+        <div class="tab-nav">
+            <a href="#" class="tab-link active" data-tab="tab1">Suspended</a>
+            <a href="#" class="tab-link" data-tab="tab2">Liying</a>
+            <a href="#" class="tab-link" data-tab="tab3">Standing</a>
+            <a href="#" class="tab-link" data-tab="tab4">All fours</a>
+            <a href="#" class="tab-link" data-tab="tab5">Kneeling</a>
+            <a href="#" class="tab-link" data-tab="tab6">Split leg</a>
+            <a href="#" class="tab-link" data-tab="tab7">Squatting</a>
+            <a href="#" class="tab-link" data-tab="tab8">Sitting</a>
+        </div>
+
+        <!-- タブ1のコンテンツ -->
+        <div class="tab-content active" id="tab1">
+            <div class="gallery-grid">
+
+            </div>
+        </div>
+        <!-- タブ2のコンテンツ -->
+        <div class="tab-content" id="tab2">
+            <div class="gallery-grid">
+    
+            </div>
+
+        </div>
+        <div class="tab-content" id="tab3">
+            <div class="gallery-grid">
+    
+            </div>
+
+        </div>
+        <div class="tab-content" id="tab4">
+            <div class="gallery-grid">    
+            </div>
+        </div>
+
+        <div class="tab-content" id="tab5">
+            <div class="gallery-grid">    
+            </div>
+        </div>
+
+        <div class="tab-content" id="tab6">
+            <div class="gallery-grid">    
+            </div>
+        </div>
+        <div class="tab-content" id="tab7">
+            <div class="gallery-grid">    
+            </div>
+        </div>
+        <div class="tab-content" id="tab8">
+            <div class="gallery-grid">    
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- モーダル -->
+    <div class="modal" id="imageModal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="拡大画像">
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
