@@ -45,7 +45,7 @@ const imageConfig = {
     suspended: {
         folder: './assets/img/Suspended/',
         zipFolder: './assets/zip/Suspended/',
-        baseName: 'Suspended',
+        baseName: 'suspended',
         count: 13,
         hasBaseImage: false
     },
@@ -96,7 +96,7 @@ const imageConfig = {
         folder: './assets/img/sitting/',
         zipFolder: './assets/zip/sitting/',
         baseName: 'sitting',
-        count: 34,
+        count: 33,
         hasBaseImage: false
     },
 };
